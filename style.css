@@ -1,0 +1,106 @@
+/*---------Global---------*/
+body{
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.container{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.box{
+  height: 230px;
+  min-width: 200px;
+  text-align: center;
+  background-color: gold;
+  margin: 0 10px 90px 0;
+  display: inline-block;
+  vertical-align: top; /*this stops remaining boxes to move down*/
+  border: solid #b30000;
+}
+
+/*creates a new font family from source format*/
+@font-face {
+  font-family: Quicksand;
+  src: url(Quicksand_Light.otf);
+}
+
+/*-------------------------*/
+
+#fixed-container{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  color: black;
+  background-color: maroon;
+  text-align: center;
+}
+#fixed-container h1{
+  font-size: 25px;
+}
+#fixed-container h2{
+  font-size: 15px;
+}
+
+/* Phi Kap Collage */
+#showcase{
+  margin-top: 99px;
+  min-height: 600px;
+  min-width: 1000px;
+  background: url("phikap_collage.jpg") 200px -20px;
+  background-size: contain;
+  /*box-shadow: none | h-shadow v-shadow blur spread color
+                |inset|initial|inherit; */
+
+                /*top*/                       /*bottom*/
+  box-shadow: 0 10px 3px -5px #000 inset, 0 -12px 3px -7px inset;
+}
+
+/*Give, expecting nothing thereof*/
+#quote-box{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-transform: capitalize;
+  border-bottom: 1px solid black;
+}
+
+#e-board{
+  margin-top: 40px;
+  border-bottom: 1px solid black;
+}
+
+#e-board img{
+  width: 200px;
+  height: 200px;
+}
+
+/* controls "Our Board Members" text*/
+#e-board .container > h1{
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#e-board p{
+  margin: 0px;
+}
+
+
+
+#contact-us{
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#contact-us h1{
+  font-size: 30px;
+}
+
+#contact-us p{
+  font-size: 25px;
+}
