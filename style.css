@@ -36,20 +36,22 @@ body{
   width: 100%;
   height: auto;
   margin: auto;
-  color: black;
+  color: yellow;
   background-color: maroon;
   text-align: center;
 }
 #fixed-container h1{
   font-size: 25px;
+  margin-bottom: 5px;
 }
 #fixed-container h2{
+  margin-top: 0px;
   font-size: 15px;
 }
 
 /* Phi Kap Collage */
 #showcase{
-  margin-top: 99px;
+  margin-top: 83px;
   min-height: 600px;
   min-width: 1000px;
   background: url("phikap_collage.jpg") 200px -20px;
