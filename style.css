@@ -106,3 +106,10 @@ body{
 #contact-us p{
   font-size: 25px;
 }
+
+#history{
+  font-size: 20px;
+  margin-top: 40px;
+  border-bottom: 1px solid black;
+
+}
